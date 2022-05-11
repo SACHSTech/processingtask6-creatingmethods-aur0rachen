@@ -127,7 +127,10 @@ public class Sketch extends PApplet {
   
     /**
     * This method draws the sun
-    *
+    * 
+    * @param sunX changes the horizontal coordinate of the sun
+    * @param sunY changes the vertical coordinate of the sun
+    * @param sunSize changes the size of the sun
     *
     */
     public void sun (int sunX, int sunY, int sunSize){
